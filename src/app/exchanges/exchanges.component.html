@@ -1,0 +1,23 @@
+<div class="container pt-3">
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col">
+      <table align="center">
+      <tbody>
+        <tr *ngFor="let exrow of exchanges">
+          <td>
+              <button type="button" class="btn btn-yellow waves-light" mdbWavesEffect (click)="exchangeClick($event)">{{ exrow.ex1}}</button>
+          </td>
+          <td>
+              <button type="button" class="btn btn-yellow waves-light" mdbWavesEffect (click)="exchangeClick($event)">{{ exrow.ex2}}</button>
+          </td>
+        </tr>
+      </tbody>
+      </table>
+      <app-rates [(exchangeName)]="exchangeName"></app-rates>
+    </div>
+    <div class="col">
+    </div>
+</div>
+</div>

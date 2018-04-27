@@ -1,0 +1,6 @@
+[
+  { "symbol": "BTC", "name": "Bitcoin", "buy": "1233", "sell": "1234" },
+  { "symbol": "ETH", "name": "Ethereum", "buy": "234324", "sell": "234234" },
+  { "symbol": "XRP", "name": "Ripple", "buy": "12", "sell": "14" },
+  { "symbol": "LTC", "name": "LiteCoin", "buy": "23", "sell": "44" }
+]
