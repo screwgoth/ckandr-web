@@ -1,27 +1,28 @@
-# CkandrWebUI
+# CKaNDR Web UI  ![ckandr_web_icon](https://raw.githubusercontent.com/screwgoth/ckandr-web/master/src/assets/ckandr_temp.png)
+****************
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+**ckandr-web** is a Web frontend to the existing idea of fetching Cryptocurrency rates from Indian exchanges using the [ckandr](https://github.com/screwgoth/ckandr-web/wiki) command-line tool.
 
-## Development server
+_(Pssst: It was  originally just a project to learn AngularJS 5)_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+### Pre-requisites
+* NodeJS v8.0+
+* npm v5.6+
+* Chrome Browser with the **[Cors Toggle](https://chrome.google.com/webstore/detail/cors-toggle/jioikioepegflmdnbocfhgmpmopmjkim?utm_source=chrome-ntp-icon)** extension installed.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+$ git clone git@github.com:screwgoth/ckandr-web.git
+$ cd ckandr-web
+$ npm install
+$ npm start
+```
+Navigate to `http://localhost:4200/` on your browser.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+_Note: This is just the development server. For now, this is the only way to run the server._
 
 ## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* See the ckandre-web [Project Dashboard](https://github.com/screwgoth/ckandr-web/projects/1)
+* See the ckandr-web [Issues](https://github.com/screwgoth/ckandr-web/issues)
+* See the ckandr-web [Wiki](https://github.com/screwgoth/ckandr-web/wiki) for more info.
