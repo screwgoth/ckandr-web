@@ -1,5 +1,5 @@
 # CKaNDR Web UI  ![ckandr_web_icon](https://raw.githubusercontent.com/screwgoth/ckandr-web/master/src/assets/ckandr_temp.png)
-****************
+
 
 **ckandr-web** is a Web frontend to the existing idea of fetching Cryptocurrency rates from Indian exchanges using the [ckandr](https://github.com/screwgoth/ckandr-web/wiki) command-line tool.
 
