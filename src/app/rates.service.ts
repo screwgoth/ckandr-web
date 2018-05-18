@@ -28,6 +28,10 @@ export class RatesService {
         this.rawData = this.http.get('https://coindelta.com/api/v1/public/getticker/');
         break;
       }
+      case "BITBNS":{
+        this.rawData = this.http.get('https://bitbns.com/order/getTickerWithVolume/');
+        break;
+      }
       default:{
         console.log('No such exchange');
         break;

@@ -16,7 +16,8 @@ export class ExchangeListService {
     return [
     {
       "ex1" : "Koinex",
-      "ex2" : "CoinDelta"
+      "ex2" : "CoinDelta",
+      "ex3" : "Bitbns"
     },
     ];
   }
